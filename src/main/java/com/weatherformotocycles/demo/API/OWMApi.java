@@ -10,7 +10,7 @@ import java.util.List;
 
 public class OWMApi
 {
-    private static final String apiKey = "f05f8ba20ab83eff32bc01820962d5df";
+    private static final String apiKey = "";
     public static final double kelwin = 273.15;
     
     public static List<Weather> WeatherService(List<String> cities) throws APIException
